@@ -25,7 +25,6 @@ jobs:
 
       - name: Build site
         run: pelican content -o output -s pelicanconf.py
-        working-directory: ./  # ← ここが重要
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
