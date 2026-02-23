@@ -13,10 +13,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Set working directory
-        run: echo "Working directory set"
-        working-directory: .
-
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -29,7 +25,7 @@ jobs:
 
       - name: Build site
         run: pelican content -o output -s pelicanconf.py
-        working-directory: .
+        working-directory: ./  # ← ここが重要
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
