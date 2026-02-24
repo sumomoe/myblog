@@ -34,6 +34,6 @@ PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = '{slug}.html'
 
 #themeがoutputに現れなかったときに追加したやつ
-THEME = 'C:/Users/sumom/myblog/mytheme'
+THEME = 'mytheme'
 STATIC_PATHS = ['static']
 THEME_STATIC_DIR = 'static'
