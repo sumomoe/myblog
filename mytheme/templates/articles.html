@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}記事一覧{% endblock %}
+
+{% block content %}
+
+<h2>記事一覧</h2>
+
+<div class="card-list">
+
+{% for article in articles %}
+<a href="{{ SITEURL }}/{{ article.url }}" class="card-link">
+  <div class="card">
+    {% if article.metadata.image %}
+      <img src="{{ SITEURL }}/{{ article.metadata.image }}" alt="{{ article.title }}">
+    {% else %}
+      <img src="{{ SITEURL }}/theme/static/img/sample.jpg" alt="記事画像">
+    {% endif %}
+    <h3>{{ article.title }}</h3>
+    <p>{{ article.summary }}</p>
+  </div>
+</a>
+{% endfor %}
+
+</div>
+
+{% endblock %}
