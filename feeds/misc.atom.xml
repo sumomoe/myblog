@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>moi'sroom - misc</title><link href="http://localhost:8000/" rel="alternate"/><link href="http://localhost:8000/feeds/misc.atom.xml" rel="self"/><id>http://localhost:8000/</id><updated>2026-02-22T00:00:00+09:00</updated><entry><title>テスト記事</title><link href="http://localhost:8000/tesutoji-shi.html" rel="alternate"/><published>2026-02-22T00:00:00+09:00</published><updated>2026-02-22T00:00:00+09:00</updated><author><name>moi</name></author><id>tag:localhost,2026-02-22:/tesutoji-shi.html</id><content type="html">&lt;h2&gt;これはテスト記事です&lt;/h2&gt;
-&lt;p&gt;Pelican が動くか確認するためのページです。&lt;/p&gt;</content><category term="misc"/></entry></feed>
