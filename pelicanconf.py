@@ -1,6 +1,7 @@
 AUTHOR = 'moi'
 SITENAME = "moi'sroom"
-SITEURL = 'http://localhost:8000'
+SITEURL = ''
+RELATIVE_URLS = True
 
 PATH = 'content'
 
@@ -34,6 +35,6 @@ PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = '{slug}.html'
 
 #themeがoutputに現れなかったときに追加したやつ
-THEME = 'mytheme'
-STATIC_PATHS = ['static']
-THEME_STATIC_DIR = 'static'
+THEME = "mytheme"
+THEME_STATIC_DIR = "static"
+STATIC_PATHS = ["images", "extra"]
