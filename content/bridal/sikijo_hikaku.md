@@ -23,6 +23,13 @@ Tags: 結婚式場, 式場見学, ブライダルフェア, 比較
 | ウエディングニュース | ○ | ○ | ◎◎ | SNS感覚で探したい人 |
 
 </div>
+
+<div class="link-buttons">
+  <a class="official-btn" href="https://zexy.net/" target="_blank">ゼクシィ公式サイト</a>
+  <a class="official-btn" href="https://hana-yume.net/" target="_blank">ハナユメ公式サイト</a>
+  <a class="official-btn" href="https://wedding.mynavi.jp/" target="_blank">マイナビウエディング公式</a>
+  <a class="official-btn" href="https://weddingnews.jp/" target="_blank">ウェディングニュース公式</a>
+</div>
 ---
 
 # ゼクシィの特徴
