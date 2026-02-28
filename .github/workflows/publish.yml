@@ -23,8 +23,8 @@ jobs:
           pip install pelican markdown
 
       - name: Build site
-        run: |
-          pelican content -o output -s publishconf.py
+        working-directory: ./myblog
+        run: pelican content -o output -s publishconf.py
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
