@@ -1,7 +1,7 @@
 Title: 【式場見学の持ち物リスト】初めてのブライダルフェアで役立ったものまとめ
 Date: 2025-02-28
 Category: ブライダル
-image: theme/static/img/wedding_dress.jpg
+image: img/wedding_dress.jpg
 Tags: 結婚準備, 持ち物, 式場見学
 
 # 式場見学に行く前に知りたかった「持ち物リスト」
