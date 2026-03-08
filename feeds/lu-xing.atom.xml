@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>moi'sroom - 旅行</title><link href="/" rel="alternate"/><link href="feeds/lu-xing.atom.xml" rel="self"/><id>/</id><updated>2026-02-22T00:00:00+09:00</updated><entry><title>HafHを使ってみた感想！コイン消化の注意点もまとめました</title><link href="hafhwoshi-tsutemitagan-xiang-koinxiao-hua-nozhu-yi-dian-momatomemashita.html" rel="alternate"/><published>2026-02-22T00:00:00+09:00</published><updated>2026-02-22T00:00:00+09:00</updated><author><name>moi</name></author><id>tag:None,2026-02-22:hafhwoshi-tsutemitagan-xiang-koinxiao-hua-nozhu-yi-dian-momatomemashita.html</id><summary type="html">&lt;p&gt;HafHを実際に使って感じたメリット・注意点をまとめました。&lt;/p&gt;</summary><content type="html">&lt;p&gt;HafH（ハフ）を実際に使ってみたので、使い心地やコインの仕組み、注意点をまとめてみました。
-&lt;img alt="HafHトップページ" src="static/travel/hafh_top.png"&gt;
+&lt;img alt="HafHトップページ" src="/static/travel/hafh_top.png"&gt;
 &lt;small&gt;※画像引用：HafH公式サイト&lt;/small&gt;&lt;/p&gt;
 &lt;h2&gt;HafHを使ってみた率直な感想&lt;/h2&gt;
 &lt;p&gt;結論からいうと、とても使いやすいサービスでした。サイトやアプリのデザインがシンプルで、必要な情報にすぐ辿り着けます。&lt;br&gt;
@@ -11,7 +11,7 @@
 &lt;p&gt;HafHでは、宿泊料金の代わりに「コイン」を使ってホテルを予約します。&lt;br&gt;
 このコインは毎月の“つみたて”で貯める仕組みになっていて、プランごとに毎月もらえるコイン数が異なります。&lt;/p&gt;
 &lt;h3&gt;● コインの基本ルール&lt;/h3&gt;
-&lt;p&gt;&lt;img alt="コインの仕組み" src="static/travel/hafh_coin.png"&gt;
+&lt;p&gt;&lt;img alt="コインの仕組み" src="/static/travel/hafh_coin.png"&gt;
 &lt;small&gt;※画像引用：HafH公式サイト&lt;/small&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;1コイン＝32円  &lt;/li&gt;
@@ -33,7 +33,7 @@
 &lt;p&gt;HafHでは、ホテルのコイン数が日によって変動します。&lt;br&gt;
 特に土日や連休前は赤丸（高コイン設定）になりやすく、平日との差が大きいです。&lt;/p&gt;
 &lt;p&gt;例：ニューオータニイン東京　禁煙モデレートセミダブル
-&lt;img alt="HafHカレンダー例" src="static/travel/hafh_coinup.png"&gt;
+&lt;img alt="HafHカレンダー例" src="/static/travel/hafh_coinup.png"&gt;
 &lt;small&gt;※画像引用：HafH公式サイト&lt;/small&gt;  &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;平日：456コイン  &lt;/li&gt;
