@@ -37,5 +37,4 @@ PAGE_SAVE_AS = '{slug}.html'
 
 #themeがoutputに現れなかったときに追加したやつ
 THEME = "mytheme"
-THEME_STATIC_DIR = "static"
 STATIC_PATHS = ['static']
