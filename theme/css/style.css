@@ -96,6 +96,9 @@ a:hover {
   padding: 18px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .card:hover {
@@ -108,6 +111,7 @@ a:hover {
   border-radius: 10px; /* 角丸（後で説明） */
   margin-bottom: 12px;
   height: 180px; /* 好きな高さに調整可能 */
+  aspect-ratio: 16/9;
   object-fit: cover; /* 画像をいい感じにトリミング */
   display: block;
 }
@@ -120,4 +124,84 @@ a:hover {
 .card p {
   font-size: 14px;
   color: #666;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+/* 表全体の基本デザイン */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+  background: #fff;
+}
+
+/* セルの余白と線 */
+table th, table td {
+  padding: 12px 10px;
+  border-bottom: 1px solid #e5e5e5;
+  text-align: center;
+}
+
+/* ゼブラ柄で視線を安定させる */
+table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+/* 重要項目（特典・使いやすさ）を軽く強調 */
+table td:nth-child(2),
+table td:nth-child(4) {
+  font-weight: bold;
+  color: #444;
+}
+
+/* スマホで横スクロール可能にする */
+.table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table-scroll table {
+  min-width: 650px;
+}
+
+/* スマホ最適化：フォント・余白を調整 */
+@media (max-width: 768px) {
+  table th, table td {
+    padding: 14px 8px;
+    font-size: 16px;
+  }
+
+  /* サービス名の列は左寄せにして読みやすく */
+  table th:first-child,
+  table td:first-child {
+    text-align: left;
+    min-width: 140px;
+  }
+}
+
+.link-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.official-btn {
+  display: inline-block;
+  padding: 10px 16px;
+  background: #ff7f9f;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.official-btn:hover {
+  opacity: 0.8;
 }
