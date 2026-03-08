@@ -1,7 +1,7 @@
 AUTHOR = 'moi'
 SITENAME = "moi'sroom"
 SITEURL = ''
-RELATIVE_URLS = False
+RELATIVE_URLS = True
 
 PATH = 'content'
 
