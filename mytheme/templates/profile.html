@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}プロフィール{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ SITEURL }}/theme/static/css/profile.css">
+{% endblock %}
+
+{% block content %}
+
+<div class="profile-container">
+    <img src="{{ SITEURL }}/static/img/moisroom_icon.png" alt="プロフィールアイコン" class="profile-icon">
+
+    <h1>{{ AUTHOR }}</h1>
+
+    <p>
+      名古屋在住のmoiです。カフェ巡り、観葉植物、料理、旅行が好きで、
+      日々の暮らしの中で見つけた「ちょっといいもの」「イベント情報」を発信しています。
+    </p>
+
+    <p>
+      このブログでは、日常の気づきやおすすめスポット、
+      生活をちょっと豊かにするアイデアなどをゆるく書いています。
+    </p>
+</div>
+
+{% endblock %}

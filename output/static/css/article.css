@@ -1,0 +1,37 @@
+/* ===== 記事ページ専用 ===== */
+
+.article-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.date {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.article-container img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.article-container h1 {
+  font-size: 26px;
+  margin-bottom: 16px;
+}
+
+.article-container h2 {
+  font-size: 20px;
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+
+.article-container p {
+  margin-bottom: 16px;
+}

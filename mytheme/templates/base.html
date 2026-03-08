@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ SITEURL }}/static/css/style.css">
+    {% block extra_css %}{% endblock %}
+</head>
+
+<body>
+
+<header>
+  <div class="logo-area">
+    <img src="{{ SITEURL }}/static/img/moisroom_icon.png" alt="アイコン" class="logo-icon">
+    <h1>{{ SITENAME }}</h1>
+  </div>
+
+  <nav>
+    <ul>
+      <li><a href="{{ SITEURL }}/index.html">ホーム</a></li>
+      <li><a href="{{ SITEURL }}/articles.html">記事一覧</a></li>
+      <li><a href="{{ SITEURL }}/profile.html">プロフィール</a></li>
+      <li><a href="{{ SITEURL }}/contact.html">お問い合わせ</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+    {% block content %}{% endblock %}
+</main>
+
+<footer>
+  <p>© 2026 {{ SITENAME }}</p>
+</footer>
+
+</body>
+</html>
