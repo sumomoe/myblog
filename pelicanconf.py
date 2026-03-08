@@ -4,7 +4,6 @@ SITEURL = ''
 RELATIVE_URLS = True
 
 PATH = 'content'
-ARTICLE_PATHS = ['.']
 
 TIMEZONE = 'Asia/Tokyo'
 DEFAULT_LANG = 'ja'
