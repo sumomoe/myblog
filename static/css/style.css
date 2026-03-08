@@ -1,0 +1,123 @@
+/* ===== 全ページ共通 ===== */
+
+body {
+  background-color: #f7f4f1;
+  font-family: "Noto Sans JP", sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.8;
+}
+
+h1, h2, h3 {
+  font-weight: 500;
+  color: #444;
+}
+
+p {
+  color: #444;
+}
+
+/* ===== index用のカード・ヘッダーなど ===== */
+
+header {
+  background-color: #f3ede8;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e0d8d2;
+}
+
+header h1 {
+  font-size: 22px;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #555;
+  font-weight: bold;
+  position: relative;
+  padding: 5px 8px;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0%;
+  height: 2px;
+  background-color: #b89c8d;
+  transition: width 0.3s;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+a {
+  color: #333; /* 好きな色に変更してOK */
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.logo-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 32px;
+  margin-bottom: 40px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden; /* 角丸から画像がはみ出ないように */
+  padding: 18px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px; /* 角丸（後で説明） */
+  margin-bottom: 12px;
+  height: 180px; /* 好きな高さに調整可能 */
+  object-fit: cover; /* 画像をいい感じにトリミング */
+  display: block;
+}
+
+.card h3 {
+  margin: 10px 0 6px;
+  font-size: 18px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #666;
+}
