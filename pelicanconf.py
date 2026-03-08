@@ -37,3 +37,4 @@ PAGE_SAVE_AS = '{slug}.html'
 #themeがoutputに現れなかったときに追加したやつ
 THEME = "mytheme"
 STATIC_PATHS = ['static']
+ARTICLE_PATHS = ['travel', 'bridal', 'beauty']
