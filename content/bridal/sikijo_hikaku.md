@@ -1,6 +1,6 @@
 Title: 【式場サイト比較】式場探しで一番お得なのはどれ？ゼクシィ・ハナユメ・マイナビ・ウエディングニュースの4つを比べてみました！
 Date: 2025-02-28
-Category: ブライダル
+Category: bridal
 image: /static/bridal/wedding_tetunagi.jpg
 Tags: 結婚式場, 式場見学, ブライダルフェア, 比較
 

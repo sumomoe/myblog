@@ -1,6 +1,6 @@
 Title: ブランカのシェルレーヌが大好きすぎるから語りたい
 Date: 2026-03-02
-Category: お菓子
+Category: beauty
 Slug: blanca-shelrene
 Summary: 愛知の名品「ブランカ」のシェルレーヌを、個人的な大好きポイントとともに紹介します。
 

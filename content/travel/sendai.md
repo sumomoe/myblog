@@ -1,6 +1,6 @@
 Title: 仙台×盛岡 1泊2日旅行記｜HafHガチャ当選で行ってきた！わんこそば・松島・牛タンを満喫
 Date: 2026-02-22
-Category: 旅行
+Category: travel
 image: /static/travel/sendai_aobajo.jpg
 Summary: HafHガチャで仙台行きが当選！盛岡・松島を巡る1泊2日の旅レポ。
 

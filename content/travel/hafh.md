@@ -1,6 +1,6 @@
 Title: HafHを使ってみた感想！コイン消化の注意点もまとめました
 Date: 2026-02-22
-Category: 旅行
+Category: travel
 image: /static/travel/hafh_top.png
 Summary: HafHを実際に使って感じたメリット・注意点をまとめました。
 
